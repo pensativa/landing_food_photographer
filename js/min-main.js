@@ -1,0 +1,1 @@
+var button=document.querySelector(".menu-button"),menu=document.querySelector(".top-header__menu__nav-mobile"),close=menu.querySelector(".modal-close");button.addEventListener("click",function(e){e.preventDefault(),menu.classList.add("open")}),close.addEventListener("click",function(e){e.preventDefault(),menu.classList.remove("open")});
